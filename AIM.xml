@@ -6,13 +6,12 @@
 // Email: aymannedaa@gmail.com 
 ///////////////////////////////////////////////////////
 
-// This model is based on the AIM protocol, a protocol developed at University of
-// Texas at Austin by Kurt Dresner and Peter stone. 
+// This model is based on the AIM protocol, a protocol developed at University of Texas at Austin by Kurt Dresner and Peter stone. 
 // The protocol is published in a paper, found on this link: http://www.cs.utexas.edu/~aim/papers/JAIR08-dresner.pdf  
 
-// Note that there was no collaboration between the authors of the AIM protocol and myself, I happened to find their
+// Note that there was no collaboration between the authors of the AIM protocol and myself. I happened to find their
 // protocol an interseting one to be modeled in UPPAAL SMC and to check whether the protocol results in collisions between vehicles
-// crossing a 4-way cross intersection or not. The model is our best effort to implement the AIM protocol in UPPAAL and it cannot be 
+// crossing a 4-way cross intersection or not. The model is a best effort to implement the AIM protocol in UPPAAL and it cannot be 
 // used directly to infer certain properties about the AIM protocol.
 
 ///////////////////////////////////////////////////////
