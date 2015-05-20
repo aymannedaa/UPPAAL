@@ -1,2 +1,0 @@
-# UPPAAL
-# UPPAAL
