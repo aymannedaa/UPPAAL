@@ -6,12 +6,36 @@
 // Email: aymannedaa@gmail.com 
 ///////////////////////////////////////////////////////
 
+// This file is released under the following MIT/X11 license:
+
+//Copyright (c) 2014-2015 Aalto University
+
+//Permission is hereby granted, free of charge, to any person obtaining a copy
+//of this software and associated documentation files (the "Software"), to deal
+//in the Software without restriction, including without limitation the rights
+//to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//copies of the Software, and to permit persons to whom the Software is
+//furnished to do so, subject to the following conditions:
+
+//The above copyright notice and this permission notice shall be included in
+//all copies or substantial portions of the Software.
+
+//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+//THE SOFTWARE.
+
+////////////////////////////////////////////////////////////////
+
 // This model is based on the AIM protocol, a protocol developed at University of Texas at Austin by Kurt Dresner and Peter stone. 
 // The protocol is published in a paper, found on this link: http://www.cs.utexas.edu/~aim/papers/JAIR08-dresner.pdf  
 
 // Note that there was no collaboration between the authors of the AIM protocol and myself. I happened to find their
 // protocol an interseting one to be modeled in UPPAAL SMC and to check whether the protocol results in collisions between vehicles
-// crossing a 4-way cross intersection or not. The model is a best effort to implement the AIM protocol in UPPAAL and it cannot be 
+// crossing a 4-way cross intersection or not. The model is a best effort to implement the AIM protocol in UPPAAL and it should not be 
 // used directly to infer certain properties about the AIM protocol.
 
 ///////////////////////////////////////////////////////
